@@ -26,4 +26,9 @@ public class UltrasonicSensor {
 	{
 		// this waits for the echo to find how far the barrier is.
 	}
+	
+	public void obstacleAvoidance()
+	 {
+		 // Avoids obstacles.
+	 }
 }

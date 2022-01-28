@@ -10,6 +10,7 @@ package edu.fiu.hkau.smartcar;
 public class ControlBoard {
 	
 	private String ports;
+	private boolean button;
 		
 	public void powerStateIndicator()
 	{
@@ -20,4 +21,10 @@ public class ControlBoard {
 	{
 		// helps to connects other components via ports
 	}
+	
+	public void resetPower()
+	{
+		// reset the power
+	}
+	
 }

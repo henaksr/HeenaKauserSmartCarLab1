@@ -10,6 +10,8 @@ package edu.fiu.hkau.smartcar;
 public class RFRemote {
 		private String joystick;
 		private String carmodeswitch;
+		private boolean button;
+		private String battery;
 		
 		public void caliberateServo()
 		{

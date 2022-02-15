@@ -7,7 +7,8 @@ package edu.fiu.hkau.smartcar;
  * @author Heena Kauser
  *
  */
-public class PowerSwitch {
+public class PowerSwitch extends Component {
+	
 		private boolean button;
 		
 		public void powerOn()
@@ -19,4 +20,5 @@ public class PowerSwitch {
 		{
 			// switching off the car
 		}
+
 }

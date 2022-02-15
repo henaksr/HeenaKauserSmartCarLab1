@@ -7,7 +7,7 @@ package edu.fiu.hkau.smartcar;
  * @author Heena Kauser
  *
  */
-public class LEDController {
+public class LEDController extends Component {
 	private String dimension;
 	private String voltage;
 	
